@@ -1,0 +1,6 @@
+framework module Pods_Comic_Confab {
+  umbrella header "Pods-Comic Confab-umbrella.h"
+
+  export *
+  module * { export * }
+}

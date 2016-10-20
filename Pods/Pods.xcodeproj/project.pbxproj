@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093161572D949AD75DA7460273B2B096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		518D927AA3EDB825CF945DDCF59B7A7E /* Pods-Comic ConfabTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5792D4A7B031244B10F2EA43BF6B544 /* Pods-Comic ConfabTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B062D6EEAA3AF58A0A77D33DABD5A7 /* Pods-Comic Confab-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7F2A7889045E70EB589EDD7DBB2BF0 /* Pods-Comic Confab-dummy.m */; };
+		99CE4F7F18224F59738C8845672D4791 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AA2E38BA178E1A2B1F2B5BA4A065EB3A /* Pods-Comic ConfabUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3529037317F3A004AC90112E2AFBC75F /* Pods-Comic ConfabUITests-dummy.m */; };
+		BF1814B51F75569AFA1539389BCA40A8 /* Pods-Comic ConfabUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B92E6F6FEEB765621B98A70F6AC7AD8 /* Pods-Comic ConfabUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D47274E1971464F921B72973CFE8F5BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E8B0F519205E55AE0307B246598D2F87 /* Pods-Comic Confab-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E88FE107359D42785AAD9FC6096AC5FC /* Pods-Comic Confab-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA2BFAD8E6AD6281696FDF5E9DC52647 /* Pods-Comic ConfabTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033C114E3AE102EA39FFCA566653B50 /* Pods-Comic ConfabTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030F5F139157FE8F8817138341631A26 /* Pods_Comic_Confab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Comic_Confab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0690B02DA41066CE1F1798BCF565E222 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		0B92E6F6FEEB765621B98A70F6AC7AD8 /* Pods-Comic ConfabUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Comic ConfabUITests-umbrella.h"; sourceTree = "<group>"; };
+		0F47AF2FEC5A6463B593F1889C5A2F4E /* Pods-Comic Confab-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Comic Confab-acknowledgements.plist"; sourceTree = "<group>"; };
+		154C3D548EFB283F9E37C3A1A5C92312 /* Pods-Comic ConfabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Comic ConfabUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1815D2A3010404CD543E84C5268BCABC /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		24276B3258CBD380C455819C4B899C1B /* Pods-Comic ConfabUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Comic ConfabUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28E068939D9EE20C8EF10B07D3E31F4C /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		2DCD0A6BC605BE6B40AB9B9DC328E9EA /* Pods-Comic ConfabUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Comic ConfabUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3033C114E3AE102EA39FFCA566653B50 /* Pods-Comic ConfabTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Comic ConfabTests-dummy.m"; sourceTree = "<group>"; };
+		30361D14560ADCE7B470114C04761626 /* Pods-Comic ConfabUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Comic ConfabUITests-resources.sh"; sourceTree = "<group>"; };
+		34EA6D75E7B2AFEE54CA4282993557E0 /* Pods-Comic Confab-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Comic Confab-frameworks.sh"; sourceTree = "<group>"; };
+		3529037317F3A004AC90112E2AFBC75F /* Pods-Comic ConfabUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Comic ConfabUITests-dummy.m"; sourceTree = "<group>"; };
+		49937A9B2A1164543F42389CE3D13C26 /* Pods-Comic ConfabTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Comic ConfabTests.modulemap"; sourceTree = "<group>"; };
+		4BC88DF4A591F16C98B4ADD986BD8FB7 /* Pods-Comic ConfabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Comic ConfabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DD84742871A6446D9EC6D3556EE9043 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		4ECCE3402153259021AF24C923F9DB31 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		516DA4DAE94CAF68DBA7113C70DA1AEA /* Pods-Comic Confab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Comic Confab.debug.xcconfig"; sourceTree = "<group>"; };
+		63DDFEFC1970DD137BD9F7846F09ECAB /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		6A7F2A7889045E70EB589EDD7DBB2BF0 /* Pods-Comic Confab-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Comic Confab-dummy.m"; sourceTree = "<group>"; };
+		74221A11F5559623FF3D423E6DCCB341 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		802E54BDC6153120E4D90035C2AD4DC2 /* Pods-Comic ConfabUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Comic ConfabUITests-frameworks.sh"; sourceTree = "<group>"; };
+		805E6E946C685C3F418D3A441AF13752 /* Pods-Comic ConfabUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Comic ConfabUITests.modulemap"; sourceTree = "<group>"; };
+		83E16F7BB8B7F0A3F5C37F79A48ED4F3 /* Pods-Comic Confab-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Comic Confab-resources.sh"; sourceTree = "<group>"; };
+		85745E7D437459B31A5864C3F32C9317 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		893D73161ED1DDF1F03EC2CE1C13A085 /* Pods-Comic ConfabTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Comic ConfabTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C18A8BB696F3F1C10374471EA79B546 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		994738FB4EE54783C37A9D1F93954F2F /* Pods-Comic ConfabTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Comic ConfabTests-resources.sh"; sourceTree = "<group>"; };
+		A55EFAA1FE5AF9E90626CBCCA2A5671F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B07914CE61B45E2BCCE466D2E4FCE05F /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		B4681D183129176945E0774B09EC4ECC /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		BD6299D63E531151E5686978A7DF0CF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF94FEDAEE7FF9FD2408ACF178992770 /* Pods_Comic_ConfabUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Comic_ConfabUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC681D3E0F2A871277D6A54D10FC2130 /* Pods-Comic ConfabTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Comic ConfabTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2DB5620757161C8805F63B84B23333E /* Pods_Comic_ConfabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Comic_ConfabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44E23634A47C313E081919394B22C75 /* Pods-Comic Confab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Comic Confab.release.xcconfig"; sourceTree = "<group>"; };
+		E5792D4A7B031244B10F2EA43BF6B544 /* Pods-Comic ConfabTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Comic ConfabTests-umbrella.h"; sourceTree = "<group>"; };
+		E7439B5C178A04A1B3E6839789D05297 /* Pods-Comic ConfabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Comic ConfabTests.release.xcconfig"; sourceTree = "<group>"; };
+		E814B910ABF8E8A0B9CA2B75D467C396 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88FE107359D42785AAD9FC6096AC5FC /* Pods-Comic Confab-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Comic Confab-umbrella.h"; sourceTree = "<group>"; };
+		EF7A843253452B75F3251FB63C5DD833 /* Pods-Comic ConfabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Comic ConfabUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F0A65C7C06FF53526F22E59A760F5F83 /* Pods-Comic ConfabTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Comic ConfabTests-frameworks.sh"; sourceTree = "<group>"; };
+		F49019F577398D68950086920B7B7783 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		F4E0019ECC26C296610FE2FC7378AD58 /* Pods-Comic Confab.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Comic Confab.modulemap"; sourceTree = "<group>"; };
+		FA797C1598245A0BECD4C0442085BEA7 /* Pods-Comic Confab-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Comic Confab-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7342297E8902487460C01C8BC28987C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47274E1971464F921B72973CFE8F5BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF75114A8B68FDD39909164255B3A920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CE4F7F18224F59738C8845672D4791 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98130000F4D4769AFB112C33E5F037F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093161572D949AD75DA7460273B2B096 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DE93CB1A1751D6B5E41CC16E30DBF8 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				4DD84742871A6446D9EC6D3556EE9043 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		1DF6462818CA251BF25498B0DC15F7E1 /* Pods-Comic ConfabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD6299D63E531151E5686978A7DF0CF9 /* Info.plist */,
+				805E6E946C685C3F418D3A441AF13752 /* Pods-Comic ConfabUITests.modulemap */,
+				2DCD0A6BC605BE6B40AB9B9DC328E9EA /* Pods-Comic ConfabUITests-acknowledgements.markdown */,
+				24276B3258CBD380C455819C4B899C1B /* Pods-Comic ConfabUITests-acknowledgements.plist */,
+				3529037317F3A004AC90112E2AFBC75F /* Pods-Comic ConfabUITests-dummy.m */,
+				802E54BDC6153120E4D90035C2AD4DC2 /* Pods-Comic ConfabUITests-frameworks.sh */,
+				30361D14560ADCE7B470114C04761626 /* Pods-Comic ConfabUITests-resources.sh */,
+				0B92E6F6FEEB765621B98A70F6AC7AD8 /* Pods-Comic ConfabUITests-umbrella.h */,
+				154C3D548EFB283F9E37C3A1A5C92312 /* Pods-Comic ConfabUITests.debug.xcconfig */,
+				EF7A843253452B75F3251FB63C5DD833 /* Pods-Comic ConfabUITests.release.xcconfig */,
+			);
+			name = "Pods-Comic ConfabUITests";
+			path = "Target Support Files/Pods-Comic ConfabUITests";
+			sourceTree = "<group>";
+		};
+		2C152434E318BDFC6AAA4637635C92CB /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				34A0684B5AC997FEE0A96FA25B4950BF /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		2D0DE668BFAAE7B1F1E4FD8AD8BE9C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030F5F139157FE8F8817138341631A26 /* Pods_Comic_Confab.framework */,
+				E2DB5620757161C8805F63B84B23333E /* Pods_Comic_ConfabTests.framework */,
+				CF94FEDAEE7FF9FD2408ACF178992770 /* Pods_Comic_ConfabUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A0684B5AC997FEE0A96FA25B4950BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0690B02DA41066CE1F1798BCF565E222 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		385E022D7FEE70A659C3FA80A0D29CAC /* Pods-Comic Confab */ = {
+			isa = PBXGroup;
+			children = (
+				A55EFAA1FE5AF9E90626CBCCA2A5671F /* Info.plist */,
+				F4E0019ECC26C296610FE2FC7378AD58 /* Pods-Comic Confab.modulemap */,
+				FA797C1598245A0BECD4C0442085BEA7 /* Pods-Comic Confab-acknowledgements.markdown */,
+				0F47AF2FEC5A6463B593F1889C5A2F4E /* Pods-Comic Confab-acknowledgements.plist */,
+				6A7F2A7889045E70EB589EDD7DBB2BF0 /* Pods-Comic Confab-dummy.m */,
+				34EA6D75E7B2AFEE54CA4282993557E0 /* Pods-Comic Confab-frameworks.sh */,
+				83E16F7BB8B7F0A3F5C37F79A48ED4F3 /* Pods-Comic Confab-resources.sh */,
+				E88FE107359D42785AAD9FC6096AC5FC /* Pods-Comic Confab-umbrella.h */,
+				516DA4DAE94CAF68DBA7113C70DA1AEA /* Pods-Comic Confab.debug.xcconfig */,
+				E44E23634A47C313E081919394B22C75 /* Pods-Comic Confab.release.xcconfig */,
+			);
+			name = "Pods-Comic Confab";
+			path = "Target Support Files/Pods-Comic Confab";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		453639F77B3EB6B4CF18A5FD54CDAE71 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				48FDA7781B212532661B34258760D0BC /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		484E10633F6CB7EC4DDBAD99C94E356D /* Pods-Comic ConfabTests */ = {
+			isa = PBXGroup;
+			children = (
+				E814B910ABF8E8A0B9CA2B75D467C396 /* Info.plist */,
+				49937A9B2A1164543F42389CE3D13C26 /* Pods-Comic ConfabTests.modulemap */,
+				893D73161ED1DDF1F03EC2CE1C13A085 /* Pods-Comic ConfabTests-acknowledgements.markdown */,
+				DC681D3E0F2A871277D6A54D10FC2130 /* Pods-Comic ConfabTests-acknowledgements.plist */,
+				3033C114E3AE102EA39FFCA566653B50 /* Pods-Comic ConfabTests-dummy.m */,
+				F0A65C7C06FF53526F22E59A760F5F83 /* Pods-Comic ConfabTests-frameworks.sh */,
+				994738FB4EE54783C37A9D1F93954F2F /* Pods-Comic ConfabTests-resources.sh */,
+				E5792D4A7B031244B10F2EA43BF6B544 /* Pods-Comic ConfabTests-umbrella.h */,
+				4BC88DF4A591F16C98B4ADD986BD8FB7 /* Pods-Comic ConfabTests.debug.xcconfig */,
+				E7439B5C178A04A1B3E6839789D05297 /* Pods-Comic ConfabTests.release.xcconfig */,
+			);
+			name = "Pods-Comic ConfabTests";
+			path = "Target Support Files/Pods-Comic ConfabTests";
+			sourceTree = "<group>";
+		};
+		48FDA7781B212532661B34258760D0BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F49019F577398D68950086920B7B7783 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		533CBF1789DAAF392D276697023B3151 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				385E022D7FEE70A659C3FA80A0D29CAC /* Pods-Comic Confab */,
+				484E10633F6CB7EC4DDBAD99C94E356D /* Pods-Comic ConfabTests */,
+				1DF6462818CA251BF25498B0DC15F7E1 /* Pods-Comic ConfabUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6260985D180B8FEB7FC63E1953C6BB6B /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C116C31BAE424153AD00D6BFFC07ED1C /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		6580F1087CB9A5ADBF554447B2181AC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4681D183129176945E0774B09EC4ECC /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D747591A8FEEFD8CD1042642C4C3A35F /* Pods */,
+				2D0DE668BFAAE7B1F1E4FD8AD8BE9C44 /* Products */,
+				533CBF1789DAAF392D276697023B3151 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		863D8178306DF5EA35115F54FE9DB8DC /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				02DE93CB1A1751D6B5E41CC16E30DBF8 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		89C482C500CAC5298583C8F231C91FDB /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F4165ED857874553CD1CDC90E0ECC575 /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		A6AD1E8361F23DD7FC20CF1F5F6193F0 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				BA74169EA2E244B7BF9E5C173AC728CD /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		BA74169EA2E244B7BF9E5C173AC728CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B07914CE61B45E2BCCE466D2E4FCE05F /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCE09D42006DAF8C572748336E33FF2D /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				ED95977A669984D9A1D4265992675740 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		C0EB6B9D509FDACF21C6699D1A63AED1 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				74221A11F5559623FF3D423E6DCCB341 /* FIRInstanceID.h */,
+				D0DC1400A58B4FBDEC03D4DA33080DA1 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		C116C31BAE424153AD00D6BFFC07ED1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ECCE3402153259021AF24C923F9DB31 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D019297FC3F595D3EECFADA365A2C945 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D9872C8C9F7733E75624E2EFACAC9A3B /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		D0DC1400A58B4FBDEC03D4DA33080DA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C18A8BB696F3F1C10374471EA79B546 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D747591A8FEEFD8CD1042642C4C3A35F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				863D8178306DF5EA35115F54FE9DB8DC /* Firebase */,
+				2C152434E318BDFC6AAA4637635C92CB /* FirebaseAnalytics */,
+				E823C0D24FE746E423D1637619881E01 /* FirebaseAuth */,
+				BCE09D42006DAF8C572748336E33FF2D /* FirebaseDatabase */,
+				C0EB6B9D509FDACF21C6699D1A63AED1 /* FirebaseInstanceID */,
+				EA217487184645F1182E6A15A6593A6F /* FirebaseStorage */,
+				A6AD1E8361F23DD7FC20CF1F5F6193F0 /* GoogleInterchangeUtilities */,
+				D019297FC3F595D3EECFADA365A2C945 /* GoogleNetworkingUtilities */,
+				89C482C500CAC5298583C8F231C91FDB /* GoogleParsingUtilities */,
+				453639F77B3EB6B4CF18A5FD54CDAE71 /* GoogleSymbolUtilities */,
+				6260985D180B8FEB7FC63E1953C6BB6B /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9872C8C9F7733E75624E2EFACAC9A3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28E068939D9EE20C8EF10B07D3E31F4C /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E823C0D24FE746E423D1637619881E01 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				6580F1087CB9A5ADBF554447B2181AC5 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		EA217487184645F1182E6A15A6593A6F /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				FBA08AD981711F6DFD38019600C22D7D /* Frameworks */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		ED95977A669984D9A1D4265992675740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1815D2A3010404CD543E84C5268BCABC /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4165ED857874553CD1CDC90E0ECC575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63DDFEFC1970DD137BD9F7846F09ECAB /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBA08AD981711F6DFD38019600C22D7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85745E7D437459B31A5864C3F32C9317 /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BAF05CB7B2D63DA75D22B5DB493554E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B0F519205E55AE0307B246598D2F87 /* Pods-Comic Confab-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB64968C695D7A5C0A7AA30DAE9682F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518D927AA3EDB825CF945DDCF59B7A7E /* Pods-Comic ConfabTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C27AABCC87B7DE18BBF46564D10075 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1814B51F75569AFA1539389BCA40A8 /* Pods-Comic ConfabUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08D3F8099EA4564F8D9A3EC2A1BE78DF /* Pods-Comic ConfabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC22559C86459B3E1F13038579535BA6 /* Build configuration list for PBXNativeTarget "Pods-Comic ConfabTests" */;
+			buildPhases = (
+				0610B16817CEE8838DB941A114C45C01 /* Sources */,
+				AF75114A8B68FDD39909164255B3A920 /* Frameworks */,
+				6FB64968C695D7A5C0A7AA30DAE9682F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Comic ConfabTests";
+			productName = "Pods-Comic ConfabTests";
+			productReference = E2DB5620757161C8805F63B84B23333E /* Pods_Comic_ConfabTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51C9FD4A4E26121DCCF7000CE1F0423A /* Pods-Comic Confab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 698C7726282F7052C16CDBDFCA108D73 /* Build configuration list for PBXNativeTarget "Pods-Comic Confab" */;
+			buildPhases = (
+				F290C1A67CC1DEFBEB40573484F0FE49 /* Sources */,
+				7342297E8902487460C01C8BC28987C9 /* Frameworks */,
+				2BAF05CB7B2D63DA75D22B5DB493554E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Comic Confab";
+			productName = "Pods-Comic Confab";
+			productReference = 030F5F139157FE8F8817138341631A26 /* Pods_Comic_Confab.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8ACB6D7068B86AB7D5D8D8E63CFD4772 /* Pods-Comic ConfabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30AC4AFE4D0D0CDCE2FA28A074EC6A98 /* Build configuration list for PBXNativeTarget "Pods-Comic ConfabUITests" */;
+			buildPhases = (
+				A774F5E2464EBC107730AC65EF796C89 /* Sources */,
+				E98130000F4D4769AFB112C33E5F037F /* Frameworks */,
+				C7C27AABCC87B7DE18BBF46564D10075 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Comic ConfabUITests";
+			productName = "Pods-Comic ConfabUITests";
+			productReference = CF94FEDAEE7FF9FD2408ACF178992770 /* Pods_Comic_ConfabUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2D0DE668BFAAE7B1F1E4FD8AD8BE9C44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51C9FD4A4E26121DCCF7000CE1F0423A /* Pods-Comic Confab */,
+				08D3F8099EA4564F8D9A3EC2A1BE78DF /* Pods-Comic ConfabTests */,
+				8ACB6D7068B86AB7D5D8D8E63CFD4772 /* Pods-Comic ConfabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0610B16817CEE8838DB941A114C45C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2BFAD8E6AD6281696FDF5E9DC52647 /* Pods-Comic ConfabTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A774F5E2464EBC107730AC65EF796C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2E38BA178E1A2B1F2B5BA4A065EB3A /* Pods-Comic ConfabUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F290C1A67CC1DEFBEB40573484F0FE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B062D6EEAA3AF58A0A77D33DABD5A7 /* Pods-Comic Confab-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		14568E836A319147EB6468C8B08792A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC88DF4A591F16C98B4ADD986BD8FB7 /* Pods-Comic ConfabTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Comic ConfabTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Comic ConfabTests/Pods-Comic ConfabTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Comic_ConfabTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AFA5C15D846DB5274CAEE157113AAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44E23634A47C313E081919394B22C75 /* Pods-Comic Confab.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Comic Confab/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Comic Confab/Pods-Comic Confab.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Comic_Confab;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E64DF3ACDAE442710D50673D55BAA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 516DA4DAE94CAF68DBA7113C70DA1AEA /* Pods-Comic Confab.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Comic Confab/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Comic Confab/Pods-Comic Confab.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Comic_Confab;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A43748DDC52F9C1F447593ECA62A446A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7439B5C178A04A1B3E6839789D05297 /* Pods-Comic ConfabTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Comic ConfabTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Comic ConfabTests/Pods-Comic ConfabTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Comic_ConfabTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A43F715DB5983BC177C17282E277E755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7A843253452B75F3251FB63C5DD833 /* Pods-Comic ConfabUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Comic ConfabUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Comic ConfabUITests/Pods-Comic ConfabUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Comic_ConfabUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5481643C29CB37A73D73AE0B1B2EBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154C3D548EFB283F9E37C3A1A5C92312 /* Pods-Comic ConfabUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Comic ConfabUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Comic ConfabUITests/Pods-Comic ConfabUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Comic_ConfabUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30AC4AFE4D0D0CDCE2FA28A074EC6A98 /* Build configuration list for PBXNativeTarget "Pods-Comic ConfabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5481643C29CB37A73D73AE0B1B2EBE6 /* Debug */,
+				A43F715DB5983BC177C17282E277E755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		698C7726282F7052C16CDBDFCA108D73 /* Build configuration list for PBXNativeTarget "Pods-Comic Confab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E64DF3ACDAE442710D50673D55BAA4D /* Debug */,
+				5AFA5C15D846DB5274CAEE157113AAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC22559C86459B3E1F13038579535BA6 /* Build configuration list for PBXNativeTarget "Pods-Comic ConfabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14568E836A319147EB6468C8B08792A4 /* Debug */,
+				A43748DDC52F9C1F447593ECA62A446A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

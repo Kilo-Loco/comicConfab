@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>99208276738-t6eis1omfg8efgf5pv0kp2etl1r6mvob.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.99208276738-t6eis1omfg8efgf5pv0kp2etl1r6mvob</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAjz2hNaKdj4mbpyapRK-lAMngt9ZeAc8Y</string>
+	<key>GCM_SENDER_ID</key>
+	<string>99208276738</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.comicconfab.Comic-Confab</string>
+	<key>PROJECT_ID</key>
+	<string>comic-confab-db6c6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>comic-confab-db6c6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:99208276738:ios:da960b5f78e6785b</string>
+	<key>DATABASE_URL</key>
+	<string>https://comic-confab-db6c6.firebaseio.com</string>
+</dict>
+</plist>
