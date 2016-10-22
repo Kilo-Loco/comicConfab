@@ -80,7 +80,7 @@
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xSF-AB-kjy" customClass="MaterialTextField" customModule="Comic_Confab" customModuleProvider="target">
                                         <color key="textColor" white="0.0" alpha="0.87084617080000004" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2D-bn-QHL" customClass="MaterialButton" customModule="Comic_Confab" customModuleProvider="target">
                                         <color key="backgroundColor" red="0.0" green="0.78431372549019607" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
@@ -88,6 +88,9 @@
                                         <state key="normal" title="Sign In">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onSignInButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wTb-GH-2U2"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -111,6 +114,10 @@
                             <constraint firstItem="sQG-H1-IaP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="zaw-pN-SQM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTF" destination="FOA-8N-Cmu" id="5L0-Fk-8yL"/>
+                        <outlet property="passwordTF" destination="xSF-AB-kjy" id="DvN-YG-3vW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
