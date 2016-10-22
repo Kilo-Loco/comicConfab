@@ -8,6 +8,7 @@ target 'Comic Confab' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
+  pod 'FBSDKLoginKit'
 
   # Pods for Comic Confab
 
