@@ -9,6 +9,7 @@ target 'Comic Confab' do
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
   pod 'FBSDKLoginKit'
+  pod 'SwiftKeychainWrapper'
 
   # Pods for Comic Confab
 
